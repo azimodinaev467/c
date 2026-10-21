@@ -1,0 +1,31 @@
+.career-card {
+  width: 523px;
+  height: 450px;
+  border-radius: 14px;
+  opacity: 1;
+  padding: 50px;
+  background: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.career-btn {
+  width: 400px;
+  height: 63px;
+  border-radius: 12px;
+  opacity: 1;
+  padding: 18px 24px;
+  gap: 10px;
+  background: #0A84FF;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.career-btn:hover {
+  opacity: 0.88;
+}
